@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkium:block/darkfurnace"
+    },
+    "facing=east": {
+      "model": "darkium:block/darkfurnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkium:block/darkfurnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkium:block/darkfurnace",
+      "y": 270
+    }
+  }
+}

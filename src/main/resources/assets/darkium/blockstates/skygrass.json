@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkium:block/skygrass"
+    },
+    "facing=east": {
+      "model": "darkium:block/skygrass",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkium:block/skygrass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkium:block/skygrass",
+      "y": 270
+    }
+  }
+}

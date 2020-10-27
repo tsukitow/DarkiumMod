@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkium:blocks/darkiumblock",
+    "up": "darkium:blocks/darkiumblock",
+    "north": "darkium:blocks/darkiumblock",
+    "east": "darkium:blocks/darkiumblock",
+    "south": "darkium:blocks/darkiumblock",
+    "west": "darkium:blocks/darkiumblock",
+    "particle": "darkium:blocks/darkiumblock"
+  }
+}

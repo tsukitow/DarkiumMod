@@ -1,0 +1,24 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "darkium:darkiumingot"
+    },
+    "1": {
+      "item": "darkium:darkiumingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "darkium:darksword",
+    "count": 1
+  }
+}

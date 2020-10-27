@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkium:blocks/dargrolylog",
+    "up": "darkium:blocks/dargrolylog",
+    "north": "darkium:blocks/darkgrolylogside",
+    "east": "darkium:blocks/darkgrolylogside",
+    "south": "darkium:blocks/darkgrolylogside",
+    "west": "darkium:blocks/darkgrolylogside",
+    "particle": "darkium:blocks/dargrolylog"
+  }
+}

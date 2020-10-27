@@ -1,0 +1,55 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "skyhotiumhelmet",
+    "enableBody": true,
+    "textureBody": "skyhotiumchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "skyhotiumleggings",
+    "enableBoots": true,
+    "textureBoots": "skyhotiumboots",
+    "creativeTab": {
+      "value": "CUSTOM:Skyhotium"
+    },
+    "armorTextureFile": "nvisible",
+    "helmetName": "Skyhotium Helmet",
+    "bodyName": "Skyhotium Chestplate",
+    "leggingsName": "Skyhotium Leggings",
+    "bootsName": "Skyhotium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelcustom_model",
+    "helmetModelPart": "helmet",
+    "helmetModelTexture": "kyhotelmet.png",
+    "bodyModelName": "ModelSkyhotChestplate",
+    "bodyModelPart": "body",
+    "bodyModelTexture": "kyhothestplate.png",
+    "leggingsModelName": "ModelSkyhotLeggings",
+    "leggingsModelPartL": "leftLeg",
+    "leggingsModelPartR": "rightLeg",
+    "leggingsModelTexture": "kyhoteggings.png",
+    "bootsModelName": "ModelSkyhotBoots",
+    "bootsModelPartL": "leftLeg2",
+    "bootsModelPartR": "rightLeg2",
+    "bootsModelTexture": "kyhotoots.png",
+    "maxDamage": 29,
+    "damageValueHelmet": 18,
+    "damageValueBody": 34,
+    "damageValueLeggings": 24,
+    "damageValueBoots": 16,
+    "enchantability": 20,
+    "toughness": 4.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SkyhotiumIngot"
+      }
+    ]
+  }
+}

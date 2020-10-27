@@ -1,0 +1,30 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "darkium:darkiumingot"
+    },
+    "3": {
+      "item": "darkium:darkiumingot"
+    },
+    "4": {
+      "item": "minecraft:chest"
+    },
+    "5": {
+      "item": "darkium:darkiumingot"
+    },
+    "7": {
+      "item": "darkium:darkiumingot"
+    }
+  },
+  "result": {
+    "item": "darkium:darkiumchest",
+    "count": 1
+  }
+}

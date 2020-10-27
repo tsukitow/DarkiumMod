@@ -1,0 +1,26 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "darkium:darkiumingot"
+    },
+    "2": {
+      "item": "darkium:darkiumingot"
+    },
+    "3": {
+      "item": "darkium:darkiumingot"
+    },
+    "5": {
+      "item": "darkium:darkiumingot"
+    }
+  },
+  "result": {
+    "item": "darkium:darkiumchestplate_boots",
+    "count": 1
+  }
+}

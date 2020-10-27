@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkium:block/skyworldportalframe"
+    },
+    "facing=east": {
+      "model": "darkium:block/skyworldportalframe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkium:block/skyworldportalframe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkium:block/skyworldportalframe",
+      "y": 270
+    }
+  }
+}

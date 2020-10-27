@@ -1,0 +1,30 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "darkium:darkiumingot"
+    },
+    "1": {
+      "item": "darkium:darkiumingot"
+    },
+    "2": {
+      "item": "darkium:darkiumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "darkium:darkiumpickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkium:blocks/skystone",
+    "up": "darkium:blocks/skystone",
+    "north": "darkium:blocks/skystone",
+    "east": "darkium:blocks/skystone",
+    "south": "darkium:blocks/skystone",
+    "west": "darkium:blocks/skystone",
+    "particle": "darkium:blocks/skystone"
+  }
+}

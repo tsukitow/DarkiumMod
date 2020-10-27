@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bedrock",
+        "1": "cobblestone",
+        "2": "concrete_cyan",
+        "3": "log_big_oak"
+      },
+      "name": "default"
+    }
+  }
+}

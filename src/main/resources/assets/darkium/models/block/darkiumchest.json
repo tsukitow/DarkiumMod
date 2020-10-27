@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkium:blocks/darkcompressorsides",
+    "up": "darkium:blocks/darkcompressorsides",
+    "north": "darkium:blocks/darkchestfront",
+    "east": "darkium:blocks/darkiumchstside",
+    "south": "darkium:blocks/darkiumchstside",
+    "west": "darkium:blocks/darkiumchstside",
+    "particle": "darkium:blocks/darkcompressorsides"
+  }
+}

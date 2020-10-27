@@ -1,0 +1,53 @@
+{
+  "_fv": 10,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "darkplant",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Crop",
+    "growapableMaxHeight": 1,
+    "name": "Dark Plant",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Darkium"
+    },
+    "hardness": 0.1,
+    "resistance": 2.0,
+    "luminance": 0.1,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "CUSTOM:DarkDust"
+    },
+    "dropAmount": 0,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 1,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 4,
+    "spawnWorldTypes": [
+      "CUSTOM:SkyhotWorld"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DarkBiome"
+      }
+    ],
+    "onStartToDestroy": {
+      "name": "DarkpalntStartToDestroy"
+    }
+  }
+}

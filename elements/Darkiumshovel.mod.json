@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkiumshovel",
+    "customModelName": "Normal",
+    "name": "Darkium Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Darkium"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 16,
+    "efficiency": 15.5,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "skyaxe",
+    "customModelName": "Normal",
+    "name": "Skyhotium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Skyhotium"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 22,
+    "efficiency": 32.0,
+    "attackSpeed": 0.5,
+    "enchantability": 12,
+    "damageVsEntity": 8.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

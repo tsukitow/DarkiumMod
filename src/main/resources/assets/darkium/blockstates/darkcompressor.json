@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkium:block/darkcompressor"
+    },
+    "facing=east": {
+      "model": "darkium:block/darkcompressor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkium:block/darkcompressor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkium:block/darkcompressor",
+      "y": 270
+    }
+  }
+}

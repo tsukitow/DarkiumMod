@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cyab",
+        "1": "eddos",
+        "2": "andomso",
+        "3": "planks_oak",
+        "4": "extureforortalrame",
+        "6": "beacon"
+      },
+      "name": "default"
+    }
+  }
+}

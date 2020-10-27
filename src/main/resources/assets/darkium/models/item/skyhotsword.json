@@ -1,0 +1,10 @@
+{
+  "parent": "darkium:custom/skysword",
+  "textures": {
+    "0": "darkium:blocks/bedrock",
+    "1": "darkium:blocks/cobblestone",
+    "2": "darkium:blocks/concrete_cyan",
+    "3": "darkium:blocks/log_big_oak",
+    "particle": "darkium:items/skyhotsword"
+  }
+}

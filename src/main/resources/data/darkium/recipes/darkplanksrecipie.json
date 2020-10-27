@@ -1,0 +1,13 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "darkium:darkwood"
+    }
+  ],
+  "result": {
+    "item": "darkium:darkplanks",
+    "count": 4
+  }
+}

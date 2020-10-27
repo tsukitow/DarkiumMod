@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "darkium:block/skyhotworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "darkium:block/skyhotworld_portal_ns"
+    }
+  }
+}

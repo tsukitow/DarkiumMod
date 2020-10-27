@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkiumIngot"
+      },
+      {
+        "value": "Blocks.CHEST"
+      },
+      {
+        "value": "CUSTOM:DarkiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkiumIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Darkiumchest"
+    },
+    "name": "darkchestrecipie",
+    "namespace": "mod"
+  }
+}

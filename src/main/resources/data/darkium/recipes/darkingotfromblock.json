@@ -1,0 +1,16 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "darkium:darkiumblock"
+    }
+  },
+  "result": {
+    "item": "darkium:darkiumingot",
+    "count": 9
+  }
+}

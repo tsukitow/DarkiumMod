@@ -1,0 +1,26 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "darkium:skyhotiumpart"
+    },
+    "1": {
+      "item": "darkium:skyhotiumpart"
+    },
+    "2": {
+      "item": "darkium:skyhotiumpart"
+    },
+    "3": {
+      "item": "darkium:skyhotiumpart"
+    }
+  },
+  "result": {
+    "item": "darkium:skyhotiumingot",
+    "count": 1
+  }
+}

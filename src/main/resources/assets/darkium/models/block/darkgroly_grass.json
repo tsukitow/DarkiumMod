@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkium:blocks/dargrolygrasstop",
+    "up": "darkium:blocks/dargrolygrasstop",
+    "north": "darkium:blocks/darkgrolygrassside",
+    "east": "darkium:blocks/darkgrolygrassside",
+    "south": "darkium:blocks/darkgrolygrassside",
+    "west": "darkium:blocks/darkgrolygrassside",
+    "particle": "darkium:blocks/dargrolygrasstop"
+  }
+}

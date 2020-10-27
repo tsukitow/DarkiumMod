@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkium:block/darkplanks"
+    },
+    "facing=east": {
+      "model": "darkium:block/darkplanks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkium:block/darkplanks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkium:block/darkplanks",
+      "y": 270
+    }
+  }
+}

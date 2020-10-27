@@ -1,0 +1,36 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "darkium:darkiumingot"
+    },
+    "1": {
+      "item": "darkium:darkiumingot"
+    },
+    "2": {
+      "item": "darkium:darkiumingot"
+    },
+    "3": {
+      "item": "darkium:darkiumingot"
+    },
+    "5": {
+      "item": "darkium:darkiumingot"
+    },
+    "6": {
+      "item": "darkium:darkiumingot"
+    },
+    "8": {
+      "item": "darkium:darkiumingot"
+    }
+  },
+  "result": {
+    "item": "darkium:darkiumchestplate_leggings",
+    "count": 1
+  }
+}

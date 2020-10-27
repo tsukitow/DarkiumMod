@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "darkium:blocks/darkplant",
+    "particle": "darkium:blocks/darkplant"
+  }
+}

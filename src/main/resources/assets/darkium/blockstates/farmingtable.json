@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkium:block/farmingtable"
+    },
+    "facing=east": {
+      "model": "darkium:block/farmingtable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkium:block/farmingtable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkium:block/farmingtable",
+      "y": 270
+    }
+  }
+}

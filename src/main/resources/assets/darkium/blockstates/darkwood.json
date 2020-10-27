@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkium:block/darkwood"
+    },
+    "facing=east": {
+      "model": "darkium:block/darkwood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkium:block/darkwood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkium:block/darkwood",
+      "y": 270
+    }
+  }
+}

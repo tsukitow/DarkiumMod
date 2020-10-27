@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkium:blocks/skydirt",
+    "up": "darkium:blocks/skygrasstop",
+    "north": "darkium:blocks/skydirtsides",
+    "east": "darkium:blocks/skydirtsides",
+    "south": "darkium:blocks/skydirtsides",
+    "west": "darkium:blocks/skydirtsides",
+    "particle": "darkium:blocks/skydirt"
+  }
+}

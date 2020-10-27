@@ -1,0 +1,25 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "darkium:darkiumingot"
+    },
+    {
+      "item": "darkium:darkiumingot"
+    },
+    {
+      "item": "darkium:darkiumingot"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "darkium:darkiumaxe",
+    "count": 1
+  }
+}

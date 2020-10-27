@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkium:blocks/extureforortalrame",
+    "up": "darkium:blocks/extureforortalrame",
+    "north": "darkium:blocks/extureforortalrame",
+    "east": "darkium:blocks/extureforortalrame",
+    "south": "darkium:blocks/extureforortalrame",
+    "west": "darkium:blocks/extureforortalrame",
+    "particle": "darkium:blocks/extureforortalrame"
+  }
+}

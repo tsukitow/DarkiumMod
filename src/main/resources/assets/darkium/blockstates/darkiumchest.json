@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkium:block/darkiumchest"
+    },
+    "facing=east": {
+      "model": "darkium:block/darkiumchest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkium:block/darkiumchest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkium:block/darkiumchest",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "darkium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "darkium:darkiumingot"
+    },
+    "1": {
+      "item": "darkium:compresseddarkium"
+    },
+    "2": {
+      "item": "darkium:darkiumingot"
+    },
+    "3": {
+      "item": "darkium:darkplanks"
+    },
+    "4": {
+      "item": "darkium:darkplanks"
+    },
+    "5": {
+      "item": "darkium:darkplanks"
+    },
+    "6": {
+      "item": "darkium:darkplanks"
+    },
+    "7": {
+      "item": "darkium:darkplanks"
+    },
+    "8": {
+      "item": "darkium:darkplanks"
+    }
+  },
+  "result": {
+    "item": "darkium:moddedtable",
+    "count": 1
+  }
+}

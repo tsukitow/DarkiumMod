@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkapple",
+    "customModelName": "Normal",
+    "name": "Dark Apple",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Darkium"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 5,
+    "saturation": 1.0,
+    "eatingSpeed": 40,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "DarkAppleFoodEaten"
+    }
+  }
+}

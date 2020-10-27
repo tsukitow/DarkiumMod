@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkiumaxe",
+    "customModelName": "Normal",
+    "name": "Darkium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Darkium"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 11,
+    "efficiency": 16.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 7.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DarkiumIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

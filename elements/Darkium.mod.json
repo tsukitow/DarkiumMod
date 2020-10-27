@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Darkium",
+    "icon": {
+      "value": "CUSTOM:DarkiumIngot"
+    },
+    "showSearch": false
+  }
+}
