@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "darkium:items/darkhelmet"
+    "layer0": "darkium:items/darkiumhelmet"
   }
 }

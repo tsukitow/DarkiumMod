@@ -3,6 +3,7 @@ package net.mcreator.darkium.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
@@ -24,7 +25,7 @@ public class DarkStickItem extends DarkiumModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(DarkiumItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(DarkiumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("darkstick");
 		}
 

@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "fluid",
   "definition": {
     "name": "SkyWater",
@@ -14,6 +14,8 @@
     "creativeTab": {
       "value": "No creative tab entry"
     },
-    "spawnWorldTypes": []
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
   }
 }

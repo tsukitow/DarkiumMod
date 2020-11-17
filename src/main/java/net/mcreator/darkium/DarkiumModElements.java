@@ -10,9 +10,12 @@ import net.minecraftforge.forgespi.language.ModFileScanData;
 import net.minecraftforge.fml.network.NetworkEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.biome.Biome;
 import net.minecraft.util.ResourceLocation;
@@ -115,6 +118,10 @@ public class DarkiumModElements {
 		}
 
 		public void serverLoad(FMLServerStartingEvent event) {
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public void clientLoad(FMLClientSetupEvent event) {
 		}
 
 		@Override

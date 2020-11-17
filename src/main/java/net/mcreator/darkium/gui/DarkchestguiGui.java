@@ -203,9 +203,9 @@ public class DarkchestguiGui extends DarkiumModElements.ModElement {
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 25 + 8 + sj * 18, 26 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 24 + 8 + sj * 18, 25 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 25 + 8 + si * 18, 26 + 142));
+				this.addSlot(new Slot(inv, si, 24 + 8 + si * 18, 25 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -385,11 +385,11 @@ public class DarkchestguiGui extends DarkiumModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
-			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+			GL11.glColor4f(1, 1, 1, 1);
 			Minecraft.getInstance().getTextureManager().bindTexture(texture);
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
-			this.blit(k, l, 0, 0, this.xSize, this.ySize);
+			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		}
 
 		@Override
@@ -399,7 +399,7 @@ public class DarkchestguiGui extends DarkiumModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Darkium Chest", 4, 1, -13434829);
+			this.font.drawString("Darkium Chest", 4, 0, -13434829);
 		}
 
 		@Override

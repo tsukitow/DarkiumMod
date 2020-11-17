@@ -107,6 +107,7 @@ public class DarkiumchestBlock extends DarkiumModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			;
 			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 

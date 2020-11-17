@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResult;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
@@ -32,7 +33,7 @@ public class DarkDustItem extends DarkiumModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(DarkiumItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(DarkiumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("darkdust");
 		}
 

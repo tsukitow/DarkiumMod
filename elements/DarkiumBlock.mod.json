@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "block",
   "definition": {
     "texture": "darkcompressorsides",
@@ -12,6 +12,7 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
+    "displayFluidOverlay": false,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -26,6 +27,7 @@
     "hardness": 1.4000000000000001,
     "resistance": 16.0,
     "hasGravity": false,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Darkium"
     },
@@ -34,6 +36,7 @@
       "value": ""
     },
     "dropAmount": 1,
+    "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,

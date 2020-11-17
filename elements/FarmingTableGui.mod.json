@@ -1,10 +1,12 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 352,
-    "height": 332,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -12,53 +14,57 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:DarkDust"
+            "value": ""
           },
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 372,
-          "y": 168
+          "x": 186,
+          "y": 84
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:DarkDust"
+            "value": ""
           },
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 408,
-          "y": 132
+          "x": 204,
+          "y": 66
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:DarkDust"
+            "value": ""
           },
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 444,
-          "y": 168
+          "x": 222,
+          "y": 84
         }
       },
       {
         "type": "outputslot",
         "data": {
+          "color": {
+            "value": -16724788,
+            "falpha": 0.0
+          },
           "id": 3,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #3",
-          "x": 552,
-          "y": 114
+          "x": 276,
+          "y": 57
         }
       },
       {
@@ -68,11 +74,11 @@
           "onClick": {
             "name": "Farmingtableprocedure"
           },
-          "width": 140,
-          "height": 40,
+          "width": 70,
+          "height": 20,
           "name": "Combine",
-          "x": 372,
-          "y": 78
+          "x": 186,
+          "y": 39
         }
       }
     ]

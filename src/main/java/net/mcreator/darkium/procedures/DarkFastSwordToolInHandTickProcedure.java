@@ -17,7 +17,8 @@ public class DarkFastSwordToolInHandTickProcedure extends DarkiumModElements.Mod
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure DarkFastSwordToolInHandTick!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure DarkFastSwordToolInHandTick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

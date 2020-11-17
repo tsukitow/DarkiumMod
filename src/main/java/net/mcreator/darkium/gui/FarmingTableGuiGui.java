@@ -36,7 +36,6 @@ import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.darkium.procedures.FarmingtableprocedureProcedure;
-import net.mcreator.darkium.item.DarkDustItem;
 import net.mcreator.darkium.DarkiumModElements;
 import net.mcreator.darkium.DarkiumMod;
 
@@ -123,22 +122,10 @@ public class FarmingTableGuiGui extends DarkiumModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 61, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(DarkDustItem.block, (int) (1)).getItem() == stack.getItem());
-				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 79, 30) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(DarkDustItem.block, (int) (1)).getItem() == stack.getItem());
-				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 97, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(DarkDustItem.block, (int) (1)).getItem() == stack.getItem());
-				}
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 151, 21) {
 				@Override
@@ -288,10 +275,14 @@ public class FarmingTableGuiGui extends DarkiumModElements.ModElement {
 			if (!bound && (playerIn instanceof ServerPlayerEntity)) {
 				if (!playerIn.isAlive() || playerIn instanceof ServerPlayerEntity && ((ServerPlayerEntity) playerIn).hasDisconnected()) {
 					for (int j = 0; j < internal.getSlots(); ++j) {
+						if (j == 3)
+							continue;
 						playerIn.dropItem(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 					}
 				} else {
 					for (int i = 0; i < internal.getSlots(); ++i) {
+						if (i == 3)
+							continue;
 						playerIn.inventory.placeItemBackInInventory(playerIn.world,
 								internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 					}
@@ -332,11 +323,11 @@ public class FarmingTableGuiGui extends DarkiumModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
-			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+			GL11.glColor4f(1, 1, 1, 1);
 			Minecraft.getInstance().getTextureManager().bindTexture(texture);
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
-			this.blit(k, l, 0, 0, this.xSize, this.ySize);
+			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		}
 
 		@Override
@@ -367,7 +358,7 @@ public class FarmingTableGuiGui extends DarkiumModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 61, this.guiTop + 2, 70, 20, "Combine", e -> {
+			this.addButton(new Button(this.guiLeft + 60, this.guiTop + 2, 70, 20, "Combine", e -> {
 				DarkiumMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));

@@ -17,7 +17,8 @@ public class DarkWoodOnBlockRightClickedProcedure extends DarkiumModElements.Mod
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure DarkWoodOnBlockRightClicked!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure DarkWoodOnBlockRightClicked!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -20,11 +20,12 @@ public class DarkiumChestplateBootsTickEventProcedure extends DarkiumModElements
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure DarkiumChestplateBootsTickEvent!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure DarkiumChestplateBootsTickEvent!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(0) : ItemStack.EMPTY)
+		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 0) : ItemStack.EMPTY)
 				.getItem() == new ItemStack(DarkiumChestplateItem.helmet, (int) (1)).getItem())) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 3000, (int) 1));

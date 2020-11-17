@@ -21,19 +21,23 @@ public class DarkiumPickaxeBlockDestroyedWithToolProcedure extends DarkiumModEle
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure DarkiumPickaxeBlockDestroyedWithTool!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure DarkiumPickaxeBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure DarkiumPickaxeBlockDestroyedWithTool!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure DarkiumPickaxeBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure DarkiumPickaxeBlockDestroyedWithTool!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure DarkiumPickaxeBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure DarkiumPickaxeBlockDestroyedWithTool!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure DarkiumPickaxeBlockDestroyedWithTool!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
@@ -72,7 +76,7 @@ public class DarkiumPickaxeBlockDestroyedWithToolProcedure extends DarkiumModEle
 												world.getWorld())
 										.get().getRecipeOutput().copy()
 								: ItemStack.EMPTY));
-				entityToSpawn.setPickupDelay(10);
+				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}
 			world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);

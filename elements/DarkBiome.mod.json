@@ -1,14 +1,14 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "biome",
   "definition": {
+    "name": "Dark Biome",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
-    "generateLakes": true,
     "treeType": 1,
     "vanillaTreeType": "Default",
     "minHeight": 7,
@@ -33,12 +33,21 @@
       "value": -13297594,
       "falpha": 0.0
     },
+    "foliageColor": {
+      "value": -13297594,
+      "falpha": 0.0
+    },
     "waterColor": {
+      "value": -14352274,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
       "value": -14352274,
       "falpha": 0.0
     },
     "treesPerChunk": 3,
     "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
     "flowersPerChunk": 1,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
@@ -51,13 +60,31 @@
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "spawnBiome": true,
-    "biomeWeight": 12,
+    "biomeWeight": 8,
     "biomeType": "WARM",
     "biomeCategory": "NONE",
     "parent": {
       "value": "plains"
     },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
     "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores",
+      "Lakes"
+    ],
     "spawnEntries": []
   }
 }

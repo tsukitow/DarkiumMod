@@ -20,13 +20,15 @@ public class SkyPotionRightClickedInAirProcedure extends DarkiumModElements.ModE
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure SkyPotionRightClickedInAir!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure SkyPotionRightClickedInAir!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(SkyPotionItem.block, (int) (1)).getItem() == p.getItem(),
-					(int) 1);
+		if (entity instanceof PlayerEntity) {
+			ItemStack _stktoremove = new ItemStack(SkyPotionItem.block, (int) (1));
+			((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+		}
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(SkyEffectPotion.potion, (int) 60, (int) 1));
 	}

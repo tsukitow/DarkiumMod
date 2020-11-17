@@ -19,7 +19,8 @@ public class SkyEffectOnPotionActiveTickProcedure extends DarkiumModElements.Mod
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure SkyEffectOnPotionActiveTick!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure SkyEffectOnPotionActiveTick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

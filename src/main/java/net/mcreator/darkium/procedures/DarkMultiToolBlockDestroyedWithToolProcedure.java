@@ -15,19 +15,23 @@ public class DarkMultiToolBlockDestroyedWithToolProcedure extends DarkiumModElem
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure DarkMultiToolBlockDestroyedWithTool!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure DarkMultiToolBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure DarkMultiToolBlockDestroyedWithTool!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure DarkMultiToolBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure DarkMultiToolBlockDestroyedWithTool!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure DarkMultiToolBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure DarkMultiToolBlockDestroyedWithTool!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure DarkMultiToolBlockDestroyedWithTool!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
